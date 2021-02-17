@@ -24,3 +24,41 @@
   transition: 3.5s;
   opacity: 0;
 }
+
+
+/* QUINTO ESERCIZIO */
+.container .row .well .ex-5-square:hover{
+  transition: 2s;
+  transform: scale(2);
+}
+
+.container .row .well .ex-5-square:active {
+  transition: 2s;
+  transform: scale(0.1);
+}
+
+
+/* SESTO ESERCIZIO */
+.container .row .well .ex-6-img:hover {
+  filter: grayscale(1);
+}
+
+/* SETTIMO ESERCIZIO */
+.container .row .well .ex-7-img:hover {
+ filter: grayscale(0.45) sepia(0.5) ;
+ transition: 2s;
+}
+/* OTTAVO ESERCIZIO */
+.container .row .well .ex-8-img:hover {
+filter: grayscale(0.4) saturate(0.6);
+border-radius: 4%;
+transition: 2s;
+}
+
+/* NONO ESERCIZIO */
+.container .row .well .ex-9-img:hover {
+filter: grayscale(0.4) saturate(0.6);
+border-radius: 4%;
+transform: scale(1.5);
+transition: 2s;
+}
