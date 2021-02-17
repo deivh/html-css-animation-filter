@@ -92,3 +92,99 @@ transition: 2s;
     transform: rotate(0deg);
   }
 }
+
+
+/* DODICESIMO ESERCIZIO */
+.container .row .well .ex-12-button:hover .ex-12-bottom-white{
+  animation: slideone 1s  infinite linear;
+}
+
+@keyframes slidetwo {
+  0% {
+    left:10%;
+  }
+  50% {
+    left:50%;
+  }
+  100% {
+    left: 10%;
+  }
+}
+.container .row .well .ex-12-button:hover .ex-12-top-white{
+  animation: slidetwo 1s  infinite linear ;
+}
+
+@keyframes slideone {
+  0% {
+    right: 10%;
+  }
+  50% {
+    right: 50%;
+  }
+  100% {
+    right: 10%;
+  }
+}
+
+
+/* TREDICESIMO ESERCIZIO */
+.container .row .well .ex-13-button:hover .ex-13-top-white{
+  animation: fslideleft 1s  infinite linear;
+}
+
+@keyframes fslideleft {
+  0% {
+    left:10%;
+  }
+  25% {
+    left: calc(100% - 20px);
+    top: -10px
+  }
+
+  50% {
+    left: calc(100% - 20px) ;
+    top: 100%;
+
+  }
+  75% {
+    left: 0;
+    top: 100%;
+  }
+  90% {
+    left: -20px;
+    top: -20px;
+  }
+  100% {
+    left: 10%;
+  }
+}
+.container .row .well .ex-13-button:hover .ex-13-bottom-white{
+  animation: fslideright 1s  infinite linear ;
+}
+
+@keyframes fslideright {
+  0% {
+    right:10%;
+  }
+  25% {
+    right: calc(100% - 20px);
+    bottom: -10px
+  }
+
+  50% {
+    right: calc(100% - 20px) ;
+    bottom: 100%;
+
+  }
+  75% {
+    right: 0;
+    bottom: 100%;
+  }
+  90% {
+    right: -20px;
+    bottom: -20px;
+  }
+  100% {
+    right: 10%;
+  }
+}
